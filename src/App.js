@@ -1,6 +1,6 @@
 import React from "react";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Main from "./Main";
+import Main from '../src/Main';
 // Importing the Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";

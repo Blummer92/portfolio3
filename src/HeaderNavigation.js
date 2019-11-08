@@ -26,6 +26,7 @@ export default class HeaderNavigation extends React.Component {
                             Disabled
                         </Nav.Link>
                     </Nav.Item>
+                    {this.props.children}
                 </Nav>
             </>
         );
