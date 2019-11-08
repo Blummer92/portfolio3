@@ -7,10 +7,13 @@ export default class HeaderNavigation extends React.Component {
       <>
         <Nav
           activeKey="/home"
-          onSelect={selectedKey => alert(`selected ${selectedKey}`)}
+          onSelect={selectedKey => toString(`selected ${selectedKey}`)}
         >
           <Nav.Item>
-            <Nav.Link href="/home">Active</Nav.Link>
+            <Nav.Link to eventKey="/">
+              {" "}
+              Active{" "}
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="link-1">Link</Nav.Link>
