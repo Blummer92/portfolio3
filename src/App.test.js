@@ -4,7 +4,7 @@ import App from "./App";
 import Main from "./Main";
 
 it("renders without crashing", () => {
-  const div = document.createElement("div");
-  ReactDOM.render(<App />, <Main />, div);
-  ReactDOM.unmountComponentAtNode(div);
+    const div = document.createElement("div");
+    ReactDOM.render(<App/>, <Main/>, div);
+    ReactDOM.unmountComponentAtNode(div);
 });
